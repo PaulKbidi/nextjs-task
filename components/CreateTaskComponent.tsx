@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
-const CreateTaskComponent = ({params}: {params: {id: string}}) => {
+const CreateTaskComponent = () => {
   const [name, setName] = useState('');
   const [responseMessage, setResponseMessage] = useState('');
 
