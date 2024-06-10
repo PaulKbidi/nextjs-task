@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /app
-COPY /app  ..
+COPY . .
 RUN npm install
 RUN npx prisma generate
 RUN npm build
